@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bmi</string>
+    <string name="height">身高</string>
+    <string name="height_hint">請輸入身高 (公尺)</string>
+    <string name="weight">體重</string>
+    <string name="weight_hint">請輸入體重 (公斤)</string>
+    <string name="calculate">計算BMI</string>
+    <string name="error_title">提示</string>
+    <string name="bmi_unit">kg/㎡</string>
+    <string name="ok">OK</string>
+    <string name="please_enter_your_height_and_weight">請輸入身高及體重</string>
+    <string name="please_enter_your_height">請輸入身高</string>
+    <string name="please_enter_your_weight">請輸入體重</string>
+    <string name="underweight">過輕</string>
+    <string name="healthy">健康</string>
+    <string name="overweight">輕度肥胖</string>
+    <string name="obese">中度肥胖</string>
+    <string name="extremely_obese">重度肥胖</string>
+</resources>
