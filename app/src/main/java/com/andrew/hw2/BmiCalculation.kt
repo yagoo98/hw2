@@ -17,11 +17,11 @@ class BmiCalculation {
 
     private fun getWeightRank(bmi: Double): WeightRank {
         return when {
-            0.0 <= bmi && bmi < 18.5 -> WeightRank.UNDERWEIGHT
+            0.0 < bmi && bmi < 18.5 -> WeightRank.UNDERWEIGHT
             18.5 <= bmi && bmi < 24.0 -> WeightRank.HEALTHY
             24.0 <= bmi && bmi < 30.0 -> WeightRank.OVERWEIGHT
             30.0 <= bmi && bmi < 35.0 -> WeightRank.OBESE
-            35.0 <= bmi -> WeightRank.EXOBESE
+            35.0 <= bmi && bmi != Double.POSITIVE_INFINITY -> WeightRank.EXOBESE
             else -> WeightRank.WARNING
         }
     }
